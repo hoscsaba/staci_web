@@ -1,0 +1,223 @@
+body {
+background-color: rgb(158,200,224);	
+/*background: rgba(212,228,239,1);
+background: -moz-linear-gradient(top, rgba(158,200,224,1) 0%, rgba(134,174,204,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(158,200,224,1)), color-stop(100%, rgba(134,174,204,1)));
+background: -webkit-linear-gradient(top, rgba(158,200,224,1) 0%, rgba(134,174,204,1) 100%);
+background: -o-linear-gradient(top, rgba(158,200,224) 0%, rgba(134,174,204,1) 100%);
+background: -ms-linear-gradient(top, rgba(158,200,224) 0%, rgba(134,174,204,1) 100%);
+background: linear-gradient(to bottom, rgba(158,200,224) 0%, rgba(134,174,204,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=0 );	*/
+}
+
+.content{
+display:none;
+}
+
+p.nyelv{
+	text-align: right;
+}
+
+h1 {
+	text-align: center;
+    color: blue;
+    margin-left: 20px;
+}
+/*
+.container .header{
+	height: 85px;
+	display: inline-block;	
+    vertical-align: top;
+	}		
+.container .header .bal{
+	background: url("file:///D://Dropbox/Staci_honlap/0.1/header_bal.png") no-repeat;
+	/*border: 2px solid yellow;*/
+	/*width: 23px;
+}*/
+/*.container .header .text {
+	background: url("file:///D://Dropbox/Staci_honlap/0.1/header_kozep.png") no-repeat;
+    font-size: xx-large;
+	padding-top: 10px;
+	padding-right: 30px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.container .header .kozep {
+    background: url("file:///D://Dropbox/Staci_honlap/0.1/header_kozep.png");
+	position:absolute;
+	left: 100px;
+	right: 50px;
+}
+.container .header .image {
+    width: 280px;
+	padding-top: 3px;
+	position:absolute;
+	right: 50px;
+}
+.container .header .jobb{
+	background: url("file:///D://Dropbox/Staci_honlap/0.1/header_jobb.png") no-repeat;
+	position:absolute;
+	right: 20px;
+	width: 49px;
+}
+*/
+
+.header2{
+	height: 90px;
+	border: 3px solid rgb(106,146,198);
+	border-radius: 21px 21px 8px 8px;
+	-moz-border-radius: 21px 21px 8px 8px;
+	-webkit-border-radius: 21px 21px 8px 8px;
+	background:rgb(231,238,244); /* #E9ECF0;*/
+	font-size: xx-large;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.zaszlo{
+	width: 30px;
+	height: 20px;
+}
+.innerheader{
+	display: inline-block;
+	vertical-align: top;	
+	position: absolute;
+}
+
+.innerheader.text{
+	font-size: 50px;
+	padding-left: 10px;
+	padding-top: 20px;
+	width: 100px;
+	color: rgb(36,76,128);
+}
+
+.innerheader.logo{
+	position: absolute;
+	right: 50px;
+}
+
+.menu3{
+    /*width:500px;margin:0 auto;*//*Uncomment this line to make the menu center-aligned.*/
+    text-align:center;
+    font-size:0;
+    height: 20px;    
+	/*padding-top: 10px;*/
+    *position:relative;*top:1px;/*Hacks for IE6 & IE7 */ 
+}
+
+div.menu3 a{
+    display: inline-block;
+    padding: 0 20px; /*gombok szélességének állítása*/
+    margin-right:2px; /* It specifies the distance between each tab */
+    background: white; /*#F7F7F7;*/
+    color: Black;
+    text-decoration:none;
+    font: normal 14px Arial;
+    line-height: 24px;
+    border:2px solid #CAD0DB;
+    border-bottom:0;
+    color:#444;
+    vertical-align:top;/*ChangeSet#2*/
+    text-decoration:none;
+}
+
+div.menu3 a:hover, div.menu3 a.current{
+    background: rgb(231,238,244); /*#E9ECF0;*/
+    line-height: 25px;
+    color: #000;
+}
+
+div.menu3sub{
+    /*height:500px;*/
+	border: 3px solid rgb(106,146,198);
+    background: rgb(231,238,244);/*#E9ECF0;*/
+	min-height: calc(100vh - 320px);
+	/*height: calc(100vh - 10px);*/
+	/*height: calc(100% - 550px);*/
+	/*height: calc(100% - 10px);*/
+	/*overflow: auto;*/
+}
+
+div.letolt{
+	margin: 10px;
+}
+
+div.content_in{
+	margin-left: 50px;
+}
+
+div.content_in.center{
+	text-align:center;
+	margin-left:0px;
+}
+
+div .frame{
+	/*onload="this.width=window.width;this.height=screen.height"*/
+	width: 98%;
+	margin-left: 1%;
+	height: calc(100vh - 50px);
+	/*height: calc(100% - 10px);*/
+	margin-top: 1%;
+}
+
+div.news_cont{
+	border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	border: 2px solid #3d38c2;
+	background-color: white;/*rgb(158,200,224);*/
+	/*background-color: rgb(158,200,224);*/
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*height: 100px;*/
+}
+div.date {
+	/*display:inline-block;*/
+	font-weight: bold;
+	display: table;
+}
+
+div.news_text{
+	/*display:inline-block;*/
+	display: table;
+	padding-left: 30px;
+}
+
+.mail_field{
+	min-width: 200px;
+	width: 40%;
+}
+
+.mail_mail{
+	width:96%;
+	height: 120px;
+}
+
+div.footer{
+	height: 85px;
+	border: 3px solid rgb(106,146,198); /*rgb(36,76,128);*/
+	border-radius: 0px 0px 8px 8px;
+	-moz-border-radius: 0x 0px 8px 8px;
+	-webkit-border-radius: 0px 0px 8px 8px;
+	background:rgb(231,238,244); /* #E9ECF0;*/
+}
+.footer_text{
+	margin-left: 50px;
+}
+
+.magyar {
+display:inline;
+}
+li .magyar {
+display:inline;
+}
+
+.english{
+display:none;
+}
+
+li.english{
+display:none;
+}

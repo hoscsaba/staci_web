@@ -1,0 +1,15 @@
+.english {
+display:inline;
+}
+
+li .english {
+display:inline;
+}
+
+a.magyar{
+display:none;
+}
+
+.magyar {
+display:none;
+}

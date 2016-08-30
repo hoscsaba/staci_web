@@ -1,0 +1,30 @@
+<!DOCTYPE	 html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Staci</title>
+	<link href="magyar.css" rel="stylesheet" type="text/css">
+	<link href="english.css" rel="alternate stylesheet" type="text/css" title="alternate">
+	<script src="styleswitch.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="cssstyles.css" />
+	<script language="javascript" type="text/javascript">
+		function resizeIframe(obj) {
+			obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+			obj.style.width  = obj.contentWindow.document.body.scrollWidth + 'px';
+		}
+	</script>
+
+</head>
+<body>
+	<center>
+	<br>
+		<div style="display: inline-block">
+			<iframe src="slide_show.html" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+		</div>
+
+		<div style="display: inline-block" align="center">
+			<iframe src="news_show.html" frameborder="0" scrolling="yes" height="453px"></iframe>
+		</div>
+	</center>
+</body>
+</html>
