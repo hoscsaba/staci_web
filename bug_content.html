@@ -1,28 +1,48 @@
-<!DOCTYPE	 hmtl>
+<!DOCTYPE hmtl>
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>Staci</title>
-		<link href="magyar.css" rel="stylesheet" type="text/css">
-		<link href="english.css" rel="alternate stylesheet" type="text/css" title="alternate">
-		<script src="styleswitch.js" type="text/javascript"></script>
-		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /> <title>Untitled Document</title> 
-	</head>
-	<body>
-		
-		<p><div class="magyar">Hibajelentés</div>
-		<div class="english">Report a Bug</div></p>
-		
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Staci</title>
+	<link href="magyar.css" rel="stylesheet" type="text/css">
+	<link href="english.css" rel="alternate stylesheet" type="text/css" title="alternate">
+	<script src="styleswitch.js" type="text/javascript"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /> <title>Untitled Document</title> 
+</head>
+<body>
+	<div>
+		<p>
+			<div class="magyar">Hibajelentés</div>
+			<div class="english">Report a Bug</div>
+		</p>
+
 		<form action="MAILTO:hara_1118@hotmail.com" method="post" enctype="text/plain">
-		<p><div class="magyar">Név:</div><div class="english">Name:</div>
-		<br><input type="text" name="name" class="mail_field"><br>
-		E-mail:
-		<br><input type="text" name="mail" class="mail_field"><br>
-		<p><div class="magyar">Üzenet:</div><div class="english">Message:</div>
-		<br><textarea name="comment" value="your comment" class="mail_mail"></textarea><br><br>
-		<input type="submit" value="Send">
-		<input type="reset" value="Reset">
+			<p>
+				<div class="magyar">Név:</div>
+				<div class="english">Name:</div>
+				<br><input type="text" name="name" class="mail_field"><br>
+				E-mail:
+				<br><input type="text" name="mail" class="mail_field"><br>
+			</p>
+			<p>
+				<div class="magyar">Üzenet:</div>
+				<div class="english">Message:</div>
+
+				<br><textarea name="comment" value="your comment" class="mail_mail"></textarea><br><br>
+				<input type="submit" value="Send">
+				<input type="reset" value="Reset">
+			</p>
 		</form>
-		
-	</body>
+	</div>
+
+	<div>
+		<font size="3" color="red">
+			<hr>
+			TODO:
+			<input id="task"><button id="add">Add</button>
+			<!-- <hr> -->
+			<div id="todos"></div> 
+			<script src="todo.js"></script>
+		</font>
+	</div>
+</body>
 </html>	

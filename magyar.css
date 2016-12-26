@@ -136,6 +136,7 @@ div.menu3sub{
 	/*height: calc(100% - 550px);*/
 	/*height: calc(100% - 10px);*/
 	/*overflow: auto;*/
+	/*width:500px;*/
 }
 
 div.letolt{
@@ -143,7 +144,9 @@ div.letolt{
 }
 
 div.content_in{
-	margin-left: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 95%;
 }
 
 div.content_in.center{
