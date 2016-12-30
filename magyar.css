@@ -71,11 +71,15 @@ h1 {
 	font-size: xx-large;
 	padding-left: 10px;
 	padding-top: 10px;
+	margin-left: 3px;
+	margin-right: 3px;
 }
 
 .zaszlo{
 	width: 30px;
 	height: 20px;
+	padding-right: 3px;
+	padding-top: 3px;
 }
 .innerheader{
 	display: inline-block;
@@ -102,7 +106,7 @@ h1 {
     font-size:0;
     height: 20px;    
 	/*padding-top: 10px;*/
-    *position:relative;*top:1px;/*Hacks for IE6 & IE7 */ 
+    *position:relative;*top:2px;/*Hacks for IE6 & IE7 */ 
 }
 
 div.menu3 a{
@@ -135,9 +139,31 @@ div.menu3sub{
 	/*height: calc(100vh - 10px);*/
 	/*height: calc(100% - 550px);*/
 	/*height: calc(100% - 10px);*/
-	/*overflow: auto;*/
+	overflow: auto;
 	/*width:500px;*/
+	margin-left: 3px;
+	margin-right: 3px;
 }
+div.wrap {
+		width:90%;
+		margin:0 auto;
+		/*border: dashed;*/
+	}
+
+ul li {
+	/*background: #cce5ff;*/
+	margin: 10px;
+}
+
+div.left_col {
+		float:left;
+		width:45%;
+	}
+	
+div.right_col {
+		float:right;
+		width:45%;
+	}
 
 div.letolt{
 	margin: 10px;
@@ -165,6 +191,10 @@ div .frame{
 	margin-top: 1%;
 }
 
+div .news_ht{
+	color: white;
+}
+
 div.news_cont{
 	border-radius: 4px 4px 4px 4px;
 	-moz-border-radius: 4px 4px 4px 4px;
@@ -178,6 +208,10 @@ div.news_cont{
 	padding-bottom: 10px;
 	/*height: 100px;*/
 }
+
+div .news_show{
+	
+}
 div.date {
 	/*display:inline-block;*/
 	font-weight: bold;
@@ -187,7 +221,6 @@ div.date {
 div.news_text{
 	/*display:inline-block;*/
 	display: table;
-	padding-left: 30px;
 }
 
 .mail_field{
@@ -200,16 +233,39 @@ div.news_text{
 	height: 120px;
 }
 
+div .email_form{
+	padding-top: 20px;
+	position: absolute;
+    left: 50%;
+	top: 50%;
+	margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+div .bug_gomb{
+	margin:5px;
+	width: 100px;
+}
+div .bug_input_mezo{
+	width:250px;
+}
 div.footer{
-	height: 85px;
+	height: 28px;
 	border: 3px solid rgb(106,146,198); /*rgb(36,76,128);*/
 	border-radius: 0px 0px 8px 8px;
 	-moz-border-radius: 0x 0px 8px 8px;
 	-webkit-border-radius: 0px 0px 8px 8px;
 	background:rgb(231,238,244); /* #E9ECF0;*/
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-top: 3px;
 }
 .footer_text{
-	margin-left: 50px;
+	text-align: center;
+	margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .magyar {

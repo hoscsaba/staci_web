@@ -9,7 +9,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /> <title>Untitled Document</title> 
 </head>
 <body>
-	<div>
+	<!--<div>
 		<p>
 			<div class="magyar">Hibajelentés</div>
 			<div class="english">Report a Bug</div>
@@ -32,17 +32,67 @@
 				<input type="reset" value="Reset">
 			</p>
 		</form>
-	</div>
+	</div>-->
+	
+	
+<form name="contactform" class="email_form" method="post" action="send_form_email.php">
 
+<table><!-- width="450px">-->
+	<tr>
+		<td valign="top">
+		<label for="first_name" class="magyar">Keresztnév: *</label>
+		<label for="first_name" class="english">First Name: *</label></td>
+		<td valign="top">
+		<input  type="text" name="first_name" class="bug_input_mezo" maxlength="50"></td>
+	</tr>
+	<tr>
+		<td valign="top"">
+		<label for="last_name" class="magyar">Vezetéknév: *</label>
+		<label for="last_name" class="english">Last Name: *</label></td>
+		<td valign="top">
+		<input  type="text" name="last_name" class="bug_input_mezo" maxlength="50"></td>
+	</tr>
+	<tr>
+		<td valign="top">
+		<label for="email" class="magyar">E-mail cím: *</label>
+		<label for="email" class="english">E-mail Address: *</label></td>
+		<td valign="top">
+		<input  type="text" name="email" class="bug_input_mezo" maxlength="80"></td>
+	</tr>
+	<tr>
+		<td valign="top">
+		<label for="telephone" class="magyar">Telefonszám:</label>
+		<label for="telephone" class="english">Telephone Number:</label></td>
+		<td valign="top">
+		<input  type="text" name="telephone" class="bug_input_mezo" maxlength="30"></td>
+	</tr>
+	<tr>
+		<td valign="top">
+		<label for="comments" class="magyar">Üzenet: *</label>
+		<label for="comments" class="english">Message: *</label></td>
+		<td valign="top">
+		<textarea  name="comments" maxlength="1000" cols="60" rows="12"></textarea></td>
+	</tr>
+	<tr>
+		<td colspan="2" style="text-align:center">
+		<input type="submit" class="magyar bug_gomb" value="Elküld">
+		<input type="submit" class="english bug_gomb" value="Submit"></td>
+	</tr>
+
+</table>
+
+</form>
+		
+<!--
 	<div>
 		<font size="3" color="red">
 			<hr>
 			TODO:
 			<input id="task"><button id="add">Add</button>
 			<!-- <hr> -->
-			<div id="todos"></div> 
+			<!--<div id="todos"></div> 
 			<script src="todo.js"></script>
 		</font>
-	</div>
+	</div>-->
 </body>
 </html>	
